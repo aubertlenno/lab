@@ -15,4 +15,4 @@ while numberInput != randomInt:
     elif numberInput > randomInt and numberInput <= 100:
         print("Your guess was too high")
     else:
-        print("Guess unknown")
+        print("Error!\nGuess lower than 0 or higher than 100")
