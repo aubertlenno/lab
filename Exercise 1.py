@@ -6,7 +6,7 @@ randomInt = random.randint(1,100)
 numberInput = ""
 
 while numberInput != randomInt:
-    numberInput = int(input("Please type your guess: "))
+    numberInput = int(input("Please type your guess from 1-100: "))
     if numberInput == randomInt:
         print("Your guess was correct! Congrats!")
         break
