@@ -3,6 +3,8 @@
 import random
 randomInt = random.randint(1,100)
 
+print("\n// Welcome To The Number Guessing Game!! //\n")
+
 numberInput = ""
 
 while numberInput != randomInt:
