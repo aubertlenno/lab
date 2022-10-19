@@ -18,9 +18,19 @@
 # print(even)
 
 
-pyramid = int(input("Enter height of pyramid: "))
+# pyramid = int(input("Enter height of pyramid: "))
 
-height = range(1,pyramid + 1)
+# height = range(1,pyramid + 1)
 
-for i in height:
-    print(str(i) * i)
+# for i in height:
+#     print(str(i) * i)
+
+string = str(input("Enter a string or number to check if its palindrome or not: "))
+x = ''
+
+for i in string:
+    x = i + x
+if x == string:
+    print("palindrome")
+else:
+    print("not")
